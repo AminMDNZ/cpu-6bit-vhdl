@@ -1,0 +1,9 @@
+# Active-HDL generated files
+compile/
+CPU_6_BIT/
+log/
+*.asdb
+*.mgf
+*.lib
+Edfmap.ini
+__pycache__/

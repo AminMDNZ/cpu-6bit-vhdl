@@ -1,0 +1,96 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=CPU_6_BIT
+[Library]
+CPU_6_BIT=.\CPU_6_BIT\CPU_6_BIT.lib
+[$LibMap$]
+CPU_6_BIT=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+REFRESH_FLOW=1
+[IMPLEMENTATION]
+UCF=
+[Files]
+/register6.vhd=-1
+/pc6.vhd=-1
+/alu6.vhd=-1
+/tb_basic_blocks.vhd=-1
+/testthreefile.asdb=-1
+/testthreefile.awc=-1
+/memory6.vhd=-1
+/memtest.asdb=-1
+/memtest.awc=-1
+/mux4_6.vhd=-1
+/control_unit.vhd=-1
+/controlunittest.asdb=-1
+/controlunittest.awc=-1
+/CPU.vhd=-1
+/CPUtest.asdb=-1
+/CPUtest.awc=-1
+/tb_cpu_part2.vhd=-1
+/testpart2.asdb=-1
+/testpart2.awc=-1
+/tb_cpu_part3.vhd=-1
+/testpsrt3.asdb=-1
+/testpsrt3.awc=-1
+/tb_cpu_all.vhd=-1
+/tb_CPU.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBenchmemory6/memory6_TB.vhd=-1
+TestBenchmemory6/memory6_TB_runtest.do=-1
+TestBenchcontrolunit/tb_control_unit.vhd=-1
+TestBenchcontrolunit/tb_control_unit_runtest.do=-1
+TestBenchpart1/cpu_TB.vhd=-1
+TestBenchpart1/cpu_TB_runtest.do=-1
+[Files.Data]
+.\src\register6.vhd=VHDL Source Code
+.\src\pc6.vhd=VHDL Source Code
+.\src\alu6.vhd=VHDL Source Code
+.\src\tb_basic_blocks.vhd=VHDL Source Code
+.\src\testthreefile.asdb=Accelerated Waveform File
+.\src\testthreefile.awc=Accelerated Waveform Configuration
+.\src\memory6.vhd=VHDL Source Code
+.\src\memtest.asdb=Accelerated Waveform File
+.\src\memtest.awc=Accelerated Waveform Configuration
+.\src\mux4_6.vhd=VHDL Source Code
+.\src\control_unit.vhd=VHDL Source Code
+.\src\controlunittest.asdb=Accelerated Waveform File
+.\src\controlunittest.awc=Accelerated Waveform Configuration
+.\src\CPU.vhd=VHDL Source Code
+.\src\CPUtest.asdb=Accelerated Waveform File
+.\src\CPUtest.awc=Accelerated Waveform Configuration
+.\src\tb_cpu_part2.vhd=VHDL Source Code
+.\src\testpart2.asdb=Accelerated Waveform File
+.\src\testpart2.awc=Accelerated Waveform Configuration
+.\src\tb_cpu_part3.vhd=VHDL Source Code
+.\src\testpsrt3.asdb=Accelerated Waveform File
+.\src\testpsrt3.awc=Accelerated Waveform Configuration
+.\src\tb_cpu_all.vhd=VHDL Source Code
+.\src\tb_CPU.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBenchmemory6\memory6_TB.vhd=VHDL Test Bench
+.\src\TestBenchmemory6\memory6_TB_runtest.do=Macro
+.\src\TestBenchcontrolunit\tb_control_unit.vhd=VHDL Test Bench
+.\src\TestBenchcontrolunit\tb_control_unit_runtest.do=Macro
+.\src\TestBenchpart1\cpu_TB.vhd=VHDL Test Bench
+.\src\TestBenchpart1\cpu_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=tb_bonus_project|simulation|0 tb_cpu|behavior|0 tb_cpu_part3|simulation|0
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBenchmemory6=1
+TestBenchcontrolunit=1
+TestBenchpart1=1

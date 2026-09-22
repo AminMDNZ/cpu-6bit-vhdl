@@ -1,0 +1,15 @@
+i<>.\src\register6.vhd
+i<>.\src\pc6.vhd
+i<>.\src\alu6.vhd
+i<>.\src\tb_basic_blocks.vhd
+i<>.\src\memory6.vhd
+i<>.\src\TestBench\memory6_TB.vhd
+i<>.\src\mux4_6.vhd
+i<>.\src\control_unit.vhd
+i<>.\src\TestBench\tb_control_unit.vhd
+i<>.\src\CPU.vhd
+i<>.\src\TestBench\cpu_TB.vhd
+i<>.\src\tb_cpu_part2.vhd
+i<>.\src\tb_cpu_part3.vhd
+i<>.\src\tb_cpu_all.vhd
+i<>.\src\tb_bonus_project.vhd
